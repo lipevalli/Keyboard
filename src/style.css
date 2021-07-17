@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #555;
+}
+
+.teclado {
+  display: flex;
+}
+
+.oitava {
+  position: relative;
+  display: flex;
+}
+
+.branca {
+  background-color: #fff;
+  width: 50px;
+  height: 300px;
+  border: 1px solid #000;
+}
+
+.preta {
+  position: absolute;
+  background-color: #000;
+  width: 30px;
+  height: 160px;
+}
+
+/* Teclas pretas */
+
+[Cs] {
+  left: 35px;
+  color: white;
+  font-family: arial-black;
+  text-align: center;
+}
+
+[Ds] {
+  left: 85px;
+  color: white;
+  font-family: arial-black;
+  text-align: center;
+}
+
+[Fs] {
+  left: 185px;
+  color: white;
+  font-family: arial-black;
+  text-align: center;
+}
+
+[Gs] {
+  left: 235px;
+  color: white;
+  font-family: arial-black;
+  text-align: center;
+}
+
+[As] {
+  left: 285px;
+  color: white;
+  font-family: arial-black;
+  text-align: center;
+}
+
+.selecionada {
+  background-color: red;
+}
+
+/* Teclas brancas */
+
+[C] {
+  font-family: arial-black;
+}
+
+[D] {
+  font-family: arial-black;
+}
+
+[E] {
+  font-family: arial-black;
+}
+
+[F] {
+  font-family: arial-black;
+}
+
+[G] {
+  font-family: arial-black;
+}
+
+[A] {
+  font-family: arial-black;
+}
+
+[B] {
+  font-family: arial-black;
+}
+
+/* nn = notas naturais */
+
+.nn {
+    position: absolute;
+    bottom: 0;
+    right: 10;
+}
